@@ -1,0 +1,441 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.containersecond {
+  height: fit-content;
+  width: 100%;
+  background-color: #fffffb;
+}
+
+.firstBar {
+  width: 80%;
+  margin: auto;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  /* border: 3px solid pink; */
+}
+
+.textpart h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: rgba(0, 14, 66, 1);
+  text-align: left;
+  display: block;
+  width: 80%;
+
+}
+
+.textpart p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #474747;
+  text-align: left;
+  display: block;
+  width: 85%;
+  margin-top: 20px;
+
+}
+
+span button {
+  background-color: #00208a;
+  width: 120px;
+  height: 55px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.textpart {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+
+/* Third Part */
+.thirdcontainer {
+  height: fit-content;
+  width: 100%;
+  background-color: #fffffb;
+}
+
+.thirdfirstbar {
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  height: fit-content;
+  margin-top: 3rem;
+
+}
+
+.thirdfirsttextup h2 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #050754;
+}
+
+.thirdgridlayer {
+  width: 100%;
+  margin: auto;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+}
+
+.thirdgrid1 {
+  height: 75vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.thirdgrid2 {
+  height: 75vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.thirdgrid3 {
+  height: 75vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.thirdgrid1 h3 {
+  color: #000e54;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+
+}
+
+.thirdgrid2 h3 {
+  color: #000e54;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+
+}
+
+.thirdgrid3 h3 {
+  color: #000e54;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+
+}
+
+.thirdgrid1 p {
+  color: #6d6d6d;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.thirdgrid2 p {
+  color: #6d6d6d;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.thirdgrid3 p {
+  color: #6d6d6d;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+}
+
+
+
+.thirdgrid1 span a {
+  color: #26364e;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: start;
+  text-decoration: none;
+}
+
+.thirdgrid2 span a {
+  color: #26364e;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: start;
+  text-decoration: none;
+}
+
+.thirdgrid3 span a {
+  color: #26364e;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: start;
+  text-decoration: none;
+}
+
+
+.thirdgrid1 span {
+  padding-bottom: 7px;
+  border-bottom: 3px solid rgb(0, 0, 0);
+  line-height: 48px;
+}
+
+
+.thirdgrid2 span {
+  padding-bottom: 7px;
+  border-bottom: 3px solid rgb(0, 0, 0);
+  line-height: 48px;
+}
+
+
+.thirdgrid3 span {
+  padding-bottom: 7px;
+  border-bottom: 3px solid rgb(0, 0, 0);
+  line-height: 48px;
+}
+
+
+/* Fourth Layer */
+.fourthcontainer {
+  height: fit-content;
+  width: 100%;
+  background-color: #fffffb;
+ 
+}
+
+.frtpage {
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.fourthgridlayer {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+
+}
+
+.fourthgrid1 {
+  height: fit-content;
+}
+
+.fourthgrid2 {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fourthgrid3 {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+.fourthgrid1 h3 {
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.fourthgrid2 h3 {
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.fourthgrid3 h3 {
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 30px;
+}
+
+
+
+.frt1 p {
+  padding-bottom: 7px;
+  border-bottom: 2px solid #bedee2;
+  line-height: 30px;
+  color: #666666;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.frt2 p {
+  padding-bottom: 7px;
+  border-bottom: 2px solid #bedee2;
+  line-height: 30px;
+  color: #666666;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.frt3 p {
+  padding-bottom: 7px;
+  border-bottom: 2px solid #bedee2;
+  line-height: 30px;
+  color: #666666;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.frt4 p {
+  padding-bottom: 7px;
+  border-bottom: 2px solid #bedee2;
+  line-height: 30px;
+  color: #666666;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.frt5 p {
+  padding-bottom: 7px;
+  border-bottom: 2px solid #bedee2;
+  line-height: 30px;
+  color: #666666;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.frt6 p {
+  padding-bottom: 7px;
+  border-bottom: 2px solid #bedee2;
+  line-height: 30px;
+  color: #666666;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.frt7 p {
+  padding-bottom: 7px;
+  /* border-bottom: 3px solid rgb(0, 0, 0); */
+  line-height: 30px;
+  color: #666666;
+  font-size: 16px;
+  font-weight: 500;
+
+}
+
+
+.fifcontainer {
+  height: fit-content;
+  width: 100%;
+  background-color: #fffffb;
+  /* border: 2px solid red; */
+}
+
+.fifbox {
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  height: fit-content;
+  margin-top: 3rem;
+  /* border: 3px solid lime; */
+  margin-bottom: 50px;
+
+}
+
+.fittext{
+  width: 50%;
+}
+
+.fittext h2{
+  font-size: 27px;
+  font-weight: 600;
+  text-align: left;
+  color: #333333;
+}
+
+.fifgridlayer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 80%;
+  margin: auto;
+  gap: 50px;
+}
+
+.smallbox img{
+  width: 150px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 920px){
+  .firstBar {
+    width: 80%;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+.thirdgridlayer {
+  margin: auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+
+}
+
+
+.fourthgridlayer {
+  margin: auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+
+}
+
+.fifgridlayer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80%;
+  margin: auto;
+  gap: 50px;
+
+}
+
+}
